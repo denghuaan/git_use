@@ -1,0 +1,28 @@
+1/在你需要放项目的目录中，点击右键 git bash here
+
+2/git clone 仓库地址（右上角的绿色按钮，复制里面地址）
+
+3/cd进入新创建的目录
+
+4/把你修改的内容提交 
+	4.1/git add 指定文件目录  
+	4.2/git commit -m "提交的是什么操作"
+	4.3/git push -u origin master
+
+5/更新git pull
+
+
+1.git clone (网址)；  //把别人仓库里的下载到本地
+   
+2.git add ./         //添加所有文件  到自己的git仓库
+  git add (filename)   //提交文件
+
+3.git commit -m "提交的信息"     //添加信息备注
+
+4.git push -u origin master        //提交到远端仓库
+
+5.git status              //查看提交状态
+
+6. git init             //把这个目录变成git可以管理的仓库
+
+//git clone 别人仓库的内容到本地，更改下载回来的某文件之后，
